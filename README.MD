@@ -133,7 +133,7 @@ qq:3987876774
 ## 贡献者
 <p align="left">
 <a href="https://github.com/YShenZe/TailDwon-PHP">
-  <img src="https://mirror.mengze2.cn/proxy/github.com/YShenZe/TailDwon-PHP.png" alt="Avatar" width="40" height="40"/>
+  <img src="https://mirror.mengze2.cn/proxy/github.com/YShenZe.png" alt="Avatar" width="40" height="40"/>
 </a>
 <a href="https://github.com/molikai-work">
   <img src="https://mirror.mengze2.cn/proxy/github.com/molikai-work.png" alt="Avatar" width="40" height="40"/>
