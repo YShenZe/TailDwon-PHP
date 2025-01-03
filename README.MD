@@ -151,11 +151,11 @@ qq:3987876774
 
 <!-- links -->
 [your-project-path]: YShenZe/TailDwon-PHP
-[forks-shield]: https://img.shields.io/github/forks/YShenZe/TailDwon-PHP/taildown.svg?style=flat-square
-[forks-url]: https://github.com/YShenZe/TailDwon-PHP/taildown/network/members
-[stars-shield]: https://img.shields.io/github/stars/YShenZe/TailDwon-PHP/taildown.svg?style=flat-square
-[stars-url]: https://github.com/YShenZe/TailDwon-PHP/taildown/stargazers
-[issues-shield]: https://img.shields.io/github/issues/YShenZe/TailDwon-PHP/taildown.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/YShenZe/TailDwon-PHP/taildown.svg
-[license-shield]: https://img.shields.io/github/license/YShenZe/TailDwon-PHP/taildown.svg?style=flat-square
-[license-url]: https://github.com/YShenZe/TailDwon-PHP/taildown/blob/main/LICENSE
+[forks-shield]: https://img.shields.io/github/forks/YShenZe/TailDwon-PHP.svg?style=flat-square
+[forks-url]: https://github.com/YShenZe/TailDwon-PHP/network/members
+[stars-shield]: https://img.shields.io/github/stars/YShenZe/TailDwon-PHP.svg?style=flat-square
+[stars-url]: https://github.com/YShenZe/TailDwon-PHP/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YShenZe/TailDwon-PHP.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/YShenZe/TailDwon-PHP.svg
+[license-shield]: https://img.shields.io/github/license/YShenZe/TailDwon-PHP.svg?style=flat-square
+[license-url]: https://github.com/YShenZe/TailDwon-PHP/blob/main/LICENSE
