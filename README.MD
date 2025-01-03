@@ -18,22 +18,22 @@ TailDown是一个PHP编写的，多版本分发版本库程序，后台可以发
 <br />
 
 <p align="center">
-  <a href="https://github.com/YShenZe/TailDwon-PHP/taildown/">
-    <img src="https://mirror.mengze2.cn/proxy/github.com/YShenZe/TailDwon-PHP.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/YShenZe/TailDwon-PHP/">
+    <img src="https://mirror.mengze2.cn/proxy/github.com/YShenZe.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">"唯一的"项目版本库程序</h3>
   <p align="center">
     一个基于PHP的完全开源免费的项目版本库程序！
     <br />
-    <a href="https://github.com/YShenZe/TailDwon-PHP/taildown/"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/YShenZe/TailDwon-PHP/"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
     <a href="https://d.usfpack.site">查看Demo</a>
     ·
-    <a href="https://github.com/YShenZe/TailDwon-PHP/taildown/issues">报告Bug</a>
+    <a href="https://github.com/YShenZe/TailDwon-PHP/issues">报告Bug</a>
     ·
-    <a href="https://github.com/YShenZe/TailDwon-PHP/taildown/issues">提出新特性</a>
+    <a href="https://github.com/YShenZe/TailDwon-PHP/issues">提出新特性</a>
   </p>
 
 </p>
@@ -68,7 +68,7 @@ TailDown是一个PHP编写的，多版本分发版本库程序，后台可以发
 1. Clone the repo
 
 ```sh
-git clone https://github.com/YShenZe/TailDwon-PHP/taildown.git
+git clone https://github.com/YShenZe/TailDwon-PHP.git
 ```
 
 ### 文件目录说明
@@ -122,7 +122,7 @@ qq:3987876774
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/YShenZe/TailDwon-PHP/taildown/blob/main/LICENSE)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE](https://github.com/YShenZe/TailDwon-PHP/blob/main/LICENSE)
 
 ### 鸣谢
 
