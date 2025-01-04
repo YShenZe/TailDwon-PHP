@@ -23,69 +23,10 @@ if ($search) {
 }
 $totalPages = ceil($totalItems / $itemsPerPage);
 ?>
-
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo sanitize($settings['title'] ?? '版本下载站'); ?></title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcdn.net/ajax/libs/alpinejs/3.13.1/cdn.min.js" defer></script>
-    <style>
-    @media (min-width: 1024px) {
-      .topbar {
-        padding: 1rem 2rem;
-      }
-      .topbar .text-lg {
-        font-size: 1.5rem;
-      }
-      .footbar {
-        padding-left: 3rem;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-      }
-      #roomList {
-        grid-template-columns: repeat(4, 1fr);
-      }
-      .floating-btn {
-        bottom: 30px;
-        right: 30px;
-        padding: 1.5rem;
-        font-size: 2rem;
-      }
-    }
-      .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      padding: 0.5rem 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    .topbar .text-lg {
-      font-size: 1.25rem;
-    }
-    </style>
+<?php include('head.php'); ?>
 </head>
 <body class="bg-gray-50 font-sans antialiased">
-
-    <!-- Header -->
-      <div class="topbar">
-    <div>
-      <span class="text-lg font-bold"><?php echo sanitize($settings['title'] ?? '版本下载站'); ?></h1></span>
-    </div>
-    <div>
-      <i id="tipIcon" class="fas fa-info-circle icon-btn text-blue-600" title="简介"></i>
-    </div>
-  </div>
-
+<?php include('header.php'); ?>
     <!-- Main Content -->
     <main class="py-8 bg-gray-100">
         
@@ -229,33 +170,7 @@ $totalPages = ceil($totalItems / $itemsPerPage);
                 <?php endif; ?>
             </section>
     </main>
-
-    <!-- Footer -->
-    <footer class="bg-white text-gray-800">
-        <div class="container mx-auto py-4 px-4 text-center">
-            <p class="text-sm">&copy; <?php echo date('Y'); ?> <?php echo sanitize($settings['title'] ?? '版本下载站'); ?> | 由 YShenZe 提供程序支持</p>
-        </div>
-    </footer>
-
-    <script>
-        const versionModal = document.getElementById('version-modal');
-        const cancelVersionButton = document.getElementById('cancel-version-button');
-        const versionChangelog = document.getElementById('version-changelog');
-
-        function openVersionModal(version, changelog) {
-            versionChangelog.textContent = changelog;
-            versionModal.classList.remove('hidden');
-        }
-
-        cancelVersionButton.addEventListener('click', () => {
-            versionModal.classList.add('hidden');
-        });
-
-        versionModal.addEventListener('click', (event) => {
-            if (event.target === versionModal) {
-                versionModal.classList.add('hidden');
-            }
-        });
-    </script>
+<?php include('footer.php'); ?>
+    <script src="../public/assets/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,43 @@
+@media (min-width: 1024px) {
+  .topbar {
+    padding: 1rem 2rem;
+  }
+
+  .topbar .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .footbar {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  #roomList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .floating-btn {
+    bottom: 30px;
+    right: 30px;
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar .text-lg {
+  font-size: 1.25rem;
+}
