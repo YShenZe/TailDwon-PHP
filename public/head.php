@@ -8,4 +8,5 @@
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.bootcdn.net/ajax/libs/alpinejs/3.13.1/cdn.min.js" defer></script>
     <link rel="stylesheet" href="../public/assets/style.css">
+    <script src="../public/assets/script.js"></script>
     </head>
