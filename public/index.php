@@ -171,6 +171,5 @@ $totalPages = ceil($totalItems / $itemsPerPage);
             </section>
     </main>
 <?php include('footer.php'); ?>
-    <script src="../public/assets/script.js"></script>
 </body>
 </html>
