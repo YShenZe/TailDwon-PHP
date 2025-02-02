@@ -135,9 +135,6 @@ qq:3987876774
 <a href="https://github.com/YShenZe/TailDwon-PHP">
   <img src="https://github.com/YShenZe.png" alt="Avatar" width="40" height="40"/>
 </a>
-<a href="https://github.com/molikai-work">
-  <img src="https://github.com/molikai-work.png" alt="Avatar" width="40" height="40"/>
-</a>
 </p>
 
 #### 如何参与开源项目
