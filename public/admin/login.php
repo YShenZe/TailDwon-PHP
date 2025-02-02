@@ -47,7 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <!-- ... 其他头部内容保持不变 ... -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>管理员登录</title>
@@ -55,7 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body class="bg-white">
     <div class="max-w-md mx-auto mt-32 p-6 bg-white rounded-xl shadow-sm">
-        <!-- ... 标题部分保持不变 ... -->
+        <h1 class="text-3xl font-semibold text-blue-600 text-center mb-6">
+            登录
+        </h1>
 
         <?php if (isset($error)): ?>
             <!-- XSS防护：使用htmlspecialchars转义输出 -->
