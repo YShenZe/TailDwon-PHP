@@ -19,7 +19,7 @@ TailDown是一个PHP编写的，多版本分发版本库程序，后台可以发
 
 <p align="center">
   <a href="https://github.com/YShenZe/TailDwon-PHP/">
-    <img src="https://jsdelivr.linexic.top/gh/YShenZe/TailDown-PHP@main/logo.png" alt="Logo" width="230" height="80">
+    <img src="https://jsdelivr.linexic.top/gh/YShenZe/TailDwon-PHP@main/logo.png" alt="Logo" width="230" height="80">
   </a>
 
   <h3 align="center">"唯一的"项目版本库程序</h3>
@@ -133,10 +133,10 @@ qq:3987876774
 ## 贡献者
 <p align="left">
 <a href="https://github.com/YShenZe/TailDwon-PHP">
-  <img src="https://mirror.mengze2.cn/proxy/github.com/YShenZe.png" alt="Avatar" width="40" height="40"/>
+  <img src="https://github.com/YShenZe.png" alt="Avatar" width="40" height="40"/>
 </a>
 <a href="https://github.com/molikai-work">
-  <img src="https://mirror.mengze2.cn/proxy/github.com/molikai-work.png" alt="Avatar" width="40" height="40"/>
+  <img src="https://github.com/molikai-work.png" alt="Avatar" width="40" height="40"/>
 </a>
 </p>
 
