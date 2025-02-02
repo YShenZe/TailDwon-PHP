@@ -82,8 +82,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </button>
         </form>
     </div>
-
-    <!-- 保持 footer 不变 -->
     <?php include('footer.php'); ?>
 </body>
 </html>
