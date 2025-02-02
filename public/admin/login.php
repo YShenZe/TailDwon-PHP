@@ -67,7 +67,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- 添加CSRF令牌字段 -->
             <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token'], ENT_QUOTES, 'UTF-8'); ?>">
             
-            <!-- ... 原有表单字段保持不变 ... -->
             <div class="mb-4">
                 <label for="username" class="block text-sm text-gray-700">用户名</label>
                 <input name="username" type="text" id="username" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none" placeholder="请输入用户名" required>
