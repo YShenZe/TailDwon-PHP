@@ -19,7 +19,7 @@ TailDown是一个PHP编写的，多版本分发版本库程序，后台可以发
 
 <p align="center">
   <a href="https://github.com/YShenZe/TailDwon-PHP/">
-    <img src="https://mirror.mengze2.cn/proxy/raw.githubusercontent.com/YShenZe/TailDwon-PHP/refs/heads/main/logo.png" alt="Logo" width="230" height="80">
+    <img src="https://jsdelivr.linexic.top/gh/YShenZe/TailDown-PHP@main/logo.png" alt="Logo" width="230" height="80">
   </a>
 
   <h3 align="center">"唯一的"项目版本库程序</h3>
