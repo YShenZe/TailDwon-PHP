@@ -156,3 +156,5 @@ qq:3987876774
 [issues-url]: https://img.shields.io/github/issues/YShenZe/TailDwon-PHP.svg
 [license-shield]: https://img.shields.io/github/license/YShenZe/TailDwon-PHP.svg?style=flat-square
 [license-url]: https://github.com/YShenZe/TailDwon-PHP/blob/main/LICENSE
+
+[![mm_reward_qrcode_1743497808845.png](https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/mm_reward_qrcode_1743497808845.png)](https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/mm_reward_qrcode_1743497808845.png)
